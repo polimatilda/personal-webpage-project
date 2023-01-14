@@ -1,0 +1,47 @@
+.landing-page-main-div {
+  min-height: 80vh;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  position: relative;
+  top: 35px;
+}
+
+.landing-pic > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 30%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #D0B8A8;
+  animation: fadeIn 2s ease;
+}
+
+.landing-textbox > h1 {
+  font-family: 'Lora', serif;
+  margin-bottom: 15px;
+  font-size: 36px;
+  padding-bottom: 15px;
+  border-bottom: #D0B8A8 1px solid;
+}
+
+.landing-textbox {
+  font-family: 'Quattrocento', serif;
+  width: 300px;
+  text-align: center;
+  font-size: 16px;
+  animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -36,3 +36,11 @@ select {
 }
 
 /* --- end of CSS reset --- */
+
+body {
+  background-color: #F8EDE3;
+  color: #7D6E83;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
