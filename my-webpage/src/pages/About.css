@@ -1,0 +1,104 @@
+.about-main-div {
+  position: relative;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  margin-bottom: 125px;
+  width: 100%;
+}
+
+.about-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-section {
+  margin: 0 30px;
+}
+
+.about-section > h2 {
+  font-family: 'Lora', serif;
+  padding: 5px 0;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: justify;
+  font-family: 'Quattrocento', serif;
+  line-height: 20px;
+  padding: 5px 0;
+}
+
+.about-image {
+  position: relative;
+  top: -80px;
+  animation: fadeIn 2s ease;
+}
+
+.about-image > img {
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #D0B8A8;
+  margin: 0 30px;
+}
+
+.two > h2 {
+  text-align: right;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.one {
+  animation: fadeIn 2s ease;
+}
+
+.two {
+  animation: fadeIn 3s ease;
+}
+
+.three {
+  animation: fadeIn 4s ease;
+}
+
+.two > a {
+  display: flex;
+  justify-content: right;
+}
+
+.about-books-btn {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+
+.about-books-btn > h4 {
+  font-variant: small-caps;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.about-books-btn:hover {
+  opacity: 1;
+  margin-left: 10px;
+}
