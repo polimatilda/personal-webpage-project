@@ -1,0 +1,12 @@
+.books-list {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}

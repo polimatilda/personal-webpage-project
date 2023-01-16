@@ -2,6 +2,7 @@ import React from 'react'
 import Book from '../components/Book'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import './Books.css'
 
 function Books() {
 
@@ -93,7 +94,9 @@ function Books() {
   return (
     <div>
       <Navbar/>
-      {books.map((book, index) => <Book book={book} key={index}/>)}
+      <div className='books-list'>
+        {books.map((book, index) => <Book book={book} key={index}/>)}
+      </div>
       <Footer/>
     </div>
   )

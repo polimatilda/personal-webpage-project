@@ -12,3 +12,6 @@ https://colorlib.com/wp/template/elen/
 fonts:
 https://fonts.google.com/specimen/Quattrocento?query=Quattrocento
 https://fonts.google.com/specimen/Lora
+
+animation library:
+https://react-awesome-reveal.morello.dev/docs/revealing-effects
