@@ -20,7 +20,7 @@ function LandingPage() {
           <Link to="/about">
           <button className='landing-btn'>
             <h4>More about me</h4>
-            <span class="material-icons md-18">
+            <span className="material-icons md-18">
               arrow_forward_ios
             </span>
           </button>

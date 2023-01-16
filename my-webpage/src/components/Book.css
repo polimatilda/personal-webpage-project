@@ -1,0 +1,41 @@
+.book-btn {
+  width: 200px;
+}
+
+.books-link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+
+.books-link-btn > h4 {
+  font-variant: small-caps;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.books-link-btn:hover {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.book-image > img {
+  width: 200px;
+}

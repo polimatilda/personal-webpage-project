@@ -25,7 +25,7 @@ function About() {
             <Link to="/books">
               <button className='about-books-btn'>
                 <h4>More about my books</h4>
-                <span class="material-icons md-18">
+                <span className="material-icons md-18">
                   arrow_forward_ios
                 </span>
               </button>
