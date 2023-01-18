@@ -1,12 +1,13 @@
 .about-main-div {
-  position: relative;
-  top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  min-height: 100vh;
-  margin-bottom: 125px;
+  height: 100%;
   width: 100%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .about-texts {
