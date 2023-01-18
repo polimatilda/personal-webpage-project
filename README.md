@@ -1,12 +1,16 @@
-# personal-webpage-project
+This is UI build practice for a personal static webpage.
 
-color palettes:
+Technologies used:
+- React
+- React Router
+- React Awesome Reveal
+- CSS
+- HTML
+
+color palette:
 https://colorhunt.co/palette/f8ede3dfd3c3d0b8a87d6e83
 
-https://colorhunt.co/palette/f5e8c7ecccb2deb6abac7088
-https://colorhunt.co/palette/f0ebe3e4dccf7d9d9c576f72
-
-examp page:
+page inspiration:
 https://colorlib.com/wp/template/elen/
 
 fonts:
