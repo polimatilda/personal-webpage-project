@@ -7,15 +7,17 @@ Technologies used:
 - CSS
 - HTML
 
+Main texts are not yet written, for now I used lorem for placeholding.
+
 color palette:
-https://colorhunt.co/palette/f8ede3dfd3c3d0b8a87d6e83
+- https://colorhunt.co/palette/f8ede3dfd3c3d0b8a87d6e83
 
 page inspiration:
-https://colorlib.com/wp/template/elen/
+- https://colorlib.com/wp/template/elen/
 
 fonts:
-https://fonts.google.com/specimen/Quattrocento?query=Quattrocento
-https://fonts.google.com/specimen/Lora
+- https://fonts.google.com/specimen/Quattrocento?query=Quattrocento
+- https://fonts.google.com/specimen/Lora
 
 animation library:
-https://react-awesome-reveal.morello.dev/docs/revealing-effects
+- https://react-awesome-reveal.morello.dev/docs/revealing-effects
