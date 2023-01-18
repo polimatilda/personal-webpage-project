@@ -1,0 +1,70 @@
+.social-main-div {
+  position: relative;
+  top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.social-section > img {
+  width: 400px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.social-link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+
+.social-btn {
+  width: 200px;
+}
+
+.social-link-btn > h4 {
+  font-variant: small-caps;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.social-link-btn:hover {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.social-title {
+  font-family: 'Lora', serif;
+  font-variant: small-caps;
+}
+
+.social-description {
+  text-align: justify;
+  font-family: 'Quattrocento', serif;
+  line-height: 20px;
+}
+
+.social-text {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}

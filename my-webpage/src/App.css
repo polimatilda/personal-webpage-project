@@ -43,3 +43,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+img {
+  border-radius: 25px;
+  box-shadow: 0 0 10px #D0B8A8;
+}
+
+div {
+  color: #7D6E83;
+}
